@@ -1,129 +1,88 @@
 @charset "UTF-8";
-    *{
-        font-family: 'Roboto',Arial,sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap');
 
+@import url('https://fonts.googleapis.com/css2?family= Tilt +Neon & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Kaushan+Script&family=Noto+Sans:wght@100;200&display=swap');
 
-    }
-    body{
-        background-color: rgb(255, 255, 255);
-        width:90%;margin: 0 auto;min-width:600px;max-width:2000px;
-       
-        
-    }
-    .containr-1{
-        min-width: 0;
-margin-left: auto;
-        margin-right: auto;
-    }
-    .paragraph-1{
-        margin-right: auto;
-        margin-left: auto;
-    }
-    
-      .div-block{
-        margin-top: 20px;
-        margin-bottom: 20px;
-        margin-right: 20px;
-        margin-left: 20px;
-        color: #f0f1f6 ;
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    background-color: rgba(0, 0, 0, 0.788)
+}
+/*
 
+*/
 
-
-
-             }
+header{
+    background-color: rgb(111, 172, 252) ;
+    background-image: linear-gradient(blue white);
+    min-height: 150px;
+    text-align: center;
+    padding-top: 30px;
+}
+p{
+    margin: 15px 0px;
+}
+header >h1{
+    font-family:  'Bebas Neue', cursive;;
+    color: rgb(255, 255, 255);
+    margin-bottom: 15px;
+    font-size: 2.5em;
+      }
    
-    
-    h1{
-        background-color: rgb(255, 255, 255); 
-        color: rgb(0, 0, 0);
-        text-align: center;
-        font-family: 'Roboto',Arial, sans-serif;
-       
-        font-size: 2em;
-        font-weight: bolder;
-        font-style: normal;
-        
-    }
-    h2{
-        text-align: center;
-        color: rgb(0, 0, 0);
-    }
-    
-    p{
-        text-align: center;
-      
-       font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
-       
-    }
-    img{
-        
-        text-align: center, ;
-       border-radius: 10%;
-    }
-    address{
-        text-align: center;
-    }
-    h3{
-        text-align: center;
-    }
-    .especial{
-    background-color: rgb(41, 82, 129);
-       padding: 30px;
-     margin: 0px;
-     border-radius: 10px;
-     
-    
-       
-    }
-    .principal{
-        text-align: justify;
-        color: white;
-        background-color: rgb(41, 82, 129);
-        padding: 30px;
-      margin: 0px;
-      border-radius: 10px;
-      
-        position: sticky;
-        top: 0;
-    }
-    
-    ol{
-        text-align: center;
-    }
-    .normal{
-        text-align: justify;
-        text-align-last:center ;
-        text-align-last: center;
-    }
-    div{
-        border-radius: 15px;
-        background-color:rgb(41, 82, 129);
-    
-        border: 1px, solid black;
-        width: 200px;
-        height: 200px;
-        display: inline-block;
-        text-align: center;
-        flex-wrap: wrap;
-    }
-    div > p{
-        font-style: italic;
-    }
-    #intro{
-        border-radius: 15px;
-        border-style: solid;
-        border-color:rgb(41, 82, 129);
-    
-    }
-   a:hover{
-    color:black;
-    text-decoration: underline;
+header > p {
+    color: rgb(255, 248, 249);
+    font-size: 1.2em;
+max-width: 600px;
+margin: auto;
+padding-left: 10PX;
+padding-right: 10PX    }
+nav a:hover{
+    background-color: rgba(73, 113, 165, 0.164) ;
+    border-radius: 10px;
+    color: black;
    
-   }
-   .luis{
-      color: white;
-      font-weight: normal;
-      text-align:justify ;
-      border-radius: 5px;
-      background-color:rgb(41, 82, 129);
-   }
+}
+nav a{
+   background-color:  rgb(111, 172, 252);
+    border-radius: 10px;
+    color: white;
+    padding: 10px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition-duration: 0.5s;
+
+}
+nav{
+    background-color:   rgb(111, 172, 252);
+    padding: 14px;
+    
+
+}
+main p{
+    margin: 15px 5px;
+    text-align: justify;
+    text-indent: 10px;
+    font-size: 1em;
+    line-height: 2em;
+}
+main{
+    padding-top: 5px;
+    min-width: 300px;
+   
+    margin: auto;
+background-color: white;
+}
+main im{
+    width: 100%;
+}
+footer{
+    background-color: rgb(57, 57, 165);
+    color: rgb(255, 255, 255);
+}
+.h1-article{
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 2em;
+    text-align: center;
+}
